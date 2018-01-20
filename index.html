@@ -29,12 +29,28 @@
         <hr>
         <div>
             <h2> Html Forms </h2>
-            <h3> Signin Form </h3>
+            <h3> Demo Form </h3>
             <form action="index.html" method="get">
                 <label for="usernam"> Username: </label>
-                    <input id="username" name="username" type="text" placeholder="username" required/>     
+                    <input id="username" name="username" type="text" placeholder="username" required/>   
+                    <br>
                 <label for="password"> Password: </label>
                     <input  id="password" name="password" type="password" placeholder="password" required/>
+                     <br>
+                <label for="male"> Male </label>
+                    <input id="male" name="gender" type="radio" value="male">
+                <label for="female"> Female </label>
+                    <input id="female" name="gender" type="radio" value="female">
+                     <br>
+                <label for="lang">Programming Languages :</label>
+                <select id="lang" name="lang">
+                    <option value="js">Javascript</option>
+                    <option value="py">Python</option>
+                    <option value="gl" >golang</option>
+                </select>
+                <br>
+                <label for="textArea">Some Note: </label>
+                    <textarea  rows="10" cols="50"> </textarea>
                 <button type="submit" > Submit</button>
             </form>
         </div>
